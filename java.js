@@ -6,7 +6,7 @@ function createBubble() {
     const bubble = document.createElement("div");
     bubble.classList.add("bubble");
 
-    let size = Math.random() * 50 + 30; // Taille entre 30px et 80px
+    let size = Math.random() * 50 + 100; // Taille entre 30px et 80px
     bubble.style.width = `${size}px`;
     bubble.style.height = `${size}px`;
 

@@ -24,6 +24,7 @@ h1, p {
     opacity: 0.8;
     cursor: pointer;
     animation: float 5s linear forwards;
+    cursor: crosshair;
 }
 
 @keyframes float {
